@@ -1,0 +1,7 @@
+<RCC>
+  <qresource prefix="/qt/qml/qmlTest/">
+    <file alias="Main.qml">E:/qtProject/qmlTest/Main.qml</file>
+    <file alias="MyMessageBox.qml">E:/qtProject/qmlTest/MyMessageBox.qml</file>
+  </qresource>
+</RCC>
+

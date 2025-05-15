@@ -1,0 +1,32 @@
+{
+    "classes": [
+        {
+            "className": "AsyncOrderProxy",
+            "lineNumber": 14,
+            "object": true,
+            "qualifiedClassName": "AsyncOrderProxy",
+            "slots": [
+                {
+                    "access": "private",
+                    "arguments": [
+                        {
+                            "name": "reply",
+                            "type": "QNetworkReply*"
+                        }
+                    ],
+                    "index": 0,
+                    "name": "onReplyFinished",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QAbstractProxyModel"
+                }
+            ]
+        }
+    ],
+    "inputFile": "async_order_proxy.h",
+    "outputRevision": 68
+}

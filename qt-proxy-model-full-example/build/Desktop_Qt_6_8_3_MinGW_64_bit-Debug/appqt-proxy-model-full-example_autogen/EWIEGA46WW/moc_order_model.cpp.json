@@ -1,0 +1,18 @@
+{
+    "classes": [
+        {
+            "className": "OrderModel",
+            "lineNumber": 10,
+            "object": true,
+            "qualifiedClassName": "OrderModel",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QAbstractTableModel"
+                }
+            ]
+        }
+    ],
+    "inputFile": "order_model.h",
+    "outputRevision": 68
+}

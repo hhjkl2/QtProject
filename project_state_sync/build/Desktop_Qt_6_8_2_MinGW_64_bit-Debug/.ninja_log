@@ -1,0 +1,14 @@
+# ninja log v6
+608	892	7670921429210313	project_state_sync_autogen/timestamp	231c8e248a373319
+960	7318	7670921432733310	CMakeFiles/project_state_sync.dir/mainwindow.cpp.obj	46a3ecedd64538b7
+608	892	7670921429210313	project_state_sync_autogen/mocs_compilation.cpp	231c8e248a373319
+608	892	7670921429210313	E:/qtProject/project_state_sync/build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug/project_state_sync_autogen/timestamp	231c8e248a373319
+1185	5498	7670902779356286	CMakeFiles/project_state_sync.dir/project_state_sync_autogen/mocs_compilation.cpp.obj	dbe5ca80da7d8e77
+608	892	7670921429210313	E:/qtProject/project_state_sync/build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug/project_state_sync_autogen/mocs_compilation.cpp	231c8e248a373319
+130	3105	7670922855235425	build.ninja	36674fd67504fe82
+117	2101	7670922855235425	build.ninja	36674fd67504fe82
+13	186	7670922855914359	project_state_sync_autogen/timestamp	231c8e248a373319
+13	186	7670922855914359	project_state_sync_autogen/mocs_compilation.cpp	231c8e248a373319
+13	186	7670922855914359	E:/qtProject/project_state_sync/build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug/project_state_sync_autogen/timestamp	231c8e248a373319
+13	186	7670922855914359	E:/qtProject/project_state_sync/build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug/project_state_sync_autogen/mocs_compilation.cpp	231c8e248a373319
+217	6154	7670922857953421	CMakeFiles/project_state_sync.dir/mainwindow.cpp.obj	46a3ecedd64538b7

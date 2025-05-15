@@ -1,0 +1,9 @@
+# ninja log v6
+12	2101	7672655926482308	QtFlexCore_autogen/timestamp	3fb6f92d10c13e9
+12	2101	7672655926482308	QtFlexCore_autogen/mocs_compilation.cpp	3fb6f92d10c13e9
+12	2101	7672655926482308	E:/qtProject/QtFlexCore/build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug/QtFlexCore_autogen/timestamp	3fb6f92d10c13e9
+12	2101	7672655926482308	E:/qtProject/QtFlexCore/build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug/QtFlexCore_autogen/mocs_compilation.cpp	3fb6f92d10c13e9
+2151	8270	7672655929058196	CMakeFiles/QtFlexCore.dir/QtFlexCore_autogen/mocs_compilation.cpp.obj	aeb9b023b26676e1
+2240	8283	7672655929943634	CMakeFiles/QtFlexCore.dir/main.cpp.obj	b2ec212f7be4d860
+2335	8400	7672655930896513	CMakeFiles/QtFlexCore.dir/mainwindow.cpp.obj	63e93ef645ba3ee8
+8401	10018	7672655991560453	QtFlexCore.exe	67f6114af42fb295

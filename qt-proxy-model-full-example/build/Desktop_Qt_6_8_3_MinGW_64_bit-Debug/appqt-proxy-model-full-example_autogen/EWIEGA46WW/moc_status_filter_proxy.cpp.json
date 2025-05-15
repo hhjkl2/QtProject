@@ -1,0 +1,18 @@
+{
+    "classes": [
+        {
+            "className": "StatusFilterProxy",
+            "lineNumber": 7,
+            "object": true,
+            "qualifiedClassName": "StatusFilterProxy",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QSortFilterProxyModel"
+                }
+            ]
+        }
+    ],
+    "inputFile": "status_filter_proxy.h",
+    "outputRevision": 68
+}

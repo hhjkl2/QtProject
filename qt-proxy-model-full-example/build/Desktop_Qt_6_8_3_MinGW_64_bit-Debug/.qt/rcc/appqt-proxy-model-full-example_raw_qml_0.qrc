@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/qt-proxy-model-full-example/">
+    <file alias="Main.qml">E:/qtProject/qt-proxy-model-full-example/Main.qml</file>
+  </qresource>
+</RCC>
+

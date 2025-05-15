@@ -1,0 +1,12 @@
+E:/qtProject/qt-plugin-extension-mechanism/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/CMakeFiles/SamplePlugin.dir
+E:/qtProject/qt-plugin-extension-mechanism/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/CMakeFiles/qt-plugin-extension-mechanism.dir
+E:/qtProject/qt-plugin-extension-mechanism/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/CMakeFiles/edit_cache.dir
+E:/qtProject/qt-plugin-extension-mechanism/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/CMakeFiles/rebuild_cache.dir
+E:/qtProject/qt-plugin-extension-mechanism/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/CMakeFiles/list_install_components.dir
+E:/qtProject/qt-plugin-extension-mechanism/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/CMakeFiles/install.dir
+E:/qtProject/qt-plugin-extension-mechanism/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/CMakeFiles/install/local.dir
+E:/qtProject/qt-plugin-extension-mechanism/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/CMakeFiles/install/strip.dir
+E:/qtProject/qt-plugin-extension-mechanism/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/CMakeFiles/SamplePlugin_autogen_timestamp_deps.dir
+E:/qtProject/qt-plugin-extension-mechanism/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/CMakeFiles/SamplePlugin_autogen.dir
+E:/qtProject/qt-plugin-extension-mechanism/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/CMakeFiles/qt-plugin-extension-mechanism_autogen_timestamp_deps.dir
+E:/qtProject/qt-plugin-extension-mechanism/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/CMakeFiles/qt-plugin-extension-mechanism_autogen.dir

@@ -1,0 +1,22 @@
+{
+	"BUILD_DIR" : "E:/qtProject/qt-large-json-parser/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/qt-large-json-parser_autogen",
+	"CMAKE_BINARY_DIR" : "E:/qtProject/qt-large-json-parser/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug",
+	"CMAKE_CURRENT_BINARY_DIR" : "E:/qtProject/qt-large-json-parser/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug",
+	"CMAKE_CURRENT_SOURCE_DIR" : "E:/qtProject/qt-large-json-parser",
+	"CMAKE_SOURCE_DIR" : "E:/qtProject/qt-large-json-parser",
+	"CROSS_CONFIG" : false,
+	"GENERATOR" : "Ninja",
+	"INCLUDE_DIR" : "E:/qtProject/qt-large-json-parser/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/qt-large-json-parser_autogen/include",
+	"INPUTS" : [ "E:/qtProject/qt-large-json-parser/config.json" ],
+	"LOCK_FILE" : "E:/qtProject/qt-large-json-parser/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/CMakeFiles/qt-large-json-parser_autogen.dir/AutoRcc_main_EWIEGA46WW_Lock.lock",
+	"MULTI_CONFIG" : false,
+	"OPTIONS" : [ "--no-zstd", "-name", "main" ],
+	"OUTPUT_CHECKSUM" : "EWIEGA46WW",
+	"OUTPUT_NAME" : "qrc_main.cpp",
+	"RCC_EXECUTABLE" : "E:/qtCreator/QtCreator/6.8.3/mingw_64/bin/rcc.exe",
+	"RCC_LIST_OPTIONS" : [ "--list" ],
+	"SETTINGS_FILE" : "E:/qtProject/qt-large-json-parser/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/CMakeFiles/qt-large-json-parser_autogen.dir/AutoRcc_main_EWIEGA46WW_Used.txt",
+	"SOURCE" : "E:/qtProject/qt-large-json-parser/main.qrc",
+	"USE_BETTER_GRAPH" : true,
+	"VERBOSITY" : 0
+}

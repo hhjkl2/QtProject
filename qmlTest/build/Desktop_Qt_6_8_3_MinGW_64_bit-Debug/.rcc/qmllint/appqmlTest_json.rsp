@@ -1,0 +1,13 @@
+--bare
+-I
+E:/qtProject/qmlTest/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug
+-I
+E:/qtCreator/QtCreator/6.8.3/mingw_64/qml
+--resource
+E:/qtProject/qmlTest/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/.qt/rcc/qmake_qmlTest.qrc
+--resource
+E:/qtProject/qmlTest/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/.qt/rcc/appqmlTest_raw_qml_0.qrc
+E:/qtProject/qmlTest/Main.qml
+E:/qtProject/qmlTest/MyMessageBox.qml
+--json
+E:/qtProject/qmlTest/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/appqmlTest_qmllint.json

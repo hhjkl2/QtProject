@@ -1,0 +1,36 @@
+[
+    {
+        "moduleFiles": [
+            {
+                "entries": [
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 23,
+                        "durationMicroseconds": 243,
+                        "errorMessage": "",
+                        "functionName": "fill",
+                        "line": 37
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 50,
+                        "durationMicroseconds": 299,
+                        "errorMessage": "",
+                        "functionName": "categories",
+                        "line": 41
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 45,
+                        "durationMicroseconds": 329,
+                        "errorMessage": "",
+                        "functionName": "values",
+                        "line": 44
+                    }
+                ],
+                "filepath": "E:/qtProject/qmlTest/Main.qml"
+            }
+        ],
+        "moduleId": "qmlTest(appqmlTest)"
+    }
+]

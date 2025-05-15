@@ -1,0 +1,27 @@
+# ninja log v6
+26	468	7676984312869106	qt-plugin-extension-mechanism_autogen/timestamp	2233755c67dec58b
+26	468	7676984312869106	qt-plugin-extension-mechanism_autogen/mocs_compilation.cpp	2233755c67dec58b
+7373	10424	7676983539472234	CMakeFiles/qt-plugin-extension-mechanism.dir/qt-plugin-extension-mechanism_autogen/mocs_compilation.cpp.obj	9bbc41be5899b779
+26	468	7676984312869106	E:/qtProject/qt-plugin-extension-mechanism/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/qt-plugin-extension-mechanism_autogen/timestamp	2233755c67dec58b
+26	468	7676984312869106	E:/qtProject/qt-plugin-extension-mechanism/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/qt-plugin-extension-mechanism_autogen/mocs_compilation.cpp	2233755c67dec58b
+1884	6460	7676968400118148	CMakeFiles/qt-plugin-extension-mechanism.dir/pluginimpl.cpp.obj	efd5036b79530051
+515	5605	7676984317758440	CMakeFiles/qt-plugin-extension-mechanism.dir/mainwindow.cpp.obj	b5785bdf73728634
+470	5427	7676984317313747	CMakeFiles/qt-plugin-extension-mechanism.dir/main.cpp.obj	116c58564a1c7181
+5605	6602	7676984368664335	qt-plugin-extension-mechanism.exe	b4038ff38fc9ca3f
+145	5177	7676989190452453	build.ninja	2e97d188863f7bc8
+20	956	7676988272204029	SamplePlugin_autogen/timestamp	cf254defd9dcaac1
+20	956	7676988272204029	SamplePlugin_autogen/mocs_compilation.cpp	cf254defd9dcaac1
+20	956	7676988272204029	E:/qtProject/qt-plugin-extension-mechanism/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/SamplePlugin_autogen/timestamp	cf254defd9dcaac1
+20	956	7676988272204029	E:/qtProject/qt-plugin-extension-mechanism/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/SamplePlugin_autogen/mocs_compilation.cpp	cf254defd9dcaac1
+996	4273	7676988273680676	CMakeFiles/SamplePlugin.dir/pluginimpl.cpp.obj	c479761da0ce0511
+957	4071	7676988273288686	CMakeFiles/SamplePlugin.dir/SamplePlugin_autogen/mocs_compilation.cpp.obj	906f60498a114d82
+4274	4758	7676988310911102	libSamplePlugin.dll	d4ab06d894efbfdc
+4274	4758	7676988310911102	libSamplePlugin.dll.a	d4ab06d894efbfdc
+24	1494	7676990011962012	SamplePlugin_autogen/timestamp	cf254defd9dcaac1
+24	1494	7676990011962012	SamplePlugin_autogen/mocs_compilation.cpp	cf254defd9dcaac1
+24	1494	7676990011962012	E:/qtProject/qt-plugin-extension-mechanism/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/SamplePlugin_autogen/timestamp	cf254defd9dcaac1
+24	1494	7676990011962012	E:/qtProject/qt-plugin-extension-mechanism/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/SamplePlugin_autogen/mocs_compilation.cpp	cf254defd9dcaac1
+1571	7037	7676990014717165	CMakeFiles/SamplePlugin.dir/pluginimpl.cpp.obj	c479761da0ce0511
+1496	7392	7676990013968384	CMakeFiles/SamplePlugin.dir/SamplePlugin_autogen/mocs_compilation.cpp.obj	906f60498a114d82
+7392	8168	7676990080444701	libSamplePlugin.dll	d4ab06d894efbfdc
+7392	8168	7676990080444701	libSamplePlugin.dll.a	d4ab06d894efbfdc

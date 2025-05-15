@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-00d99bff6b067a083575.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "qt-observer-advanced",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "qt-observer-advanced::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-qt-observer-advanced-Debug-61cf6911870106c3ee5b.json",
+					"name" : "qt-observer-advanced",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "qt-observer-advanced_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-qt-observer-advanced_autogen-Debug-27c396f7b709bc0ab56b.json",
+					"name" : "qt-observer-advanced_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "qt-observer-advanced_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-qt-observer-advanced_autogen_timestamp_deps-Debug-5690e466840561d411ec.json",
+					"name" : "qt-observer-advanced_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "E:/qtProject/qt-observer-advanced/build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug",
+		"source" : "E:/qtProject/qt-observer-advanced"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

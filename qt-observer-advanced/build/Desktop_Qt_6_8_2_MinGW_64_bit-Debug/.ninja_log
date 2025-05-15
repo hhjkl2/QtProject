@@ -1,0 +1,21 @@
+# ninja log v6
+14	289	7685623130905482	qt-observer-advanced_autogen/timestamp	70e055f96ca7f1c9
+14	289	7685623130905482	qt-observer-advanced_autogen/mocs_compilation.cpp	70e055f96ca7f1c9
+1437	6385	7685603845938502	CMakeFiles/qt-observer-advanced.dir/logger.cpp.obj	e0f68140d95ed46c
+14	289	7685623130905482	E:/qtProject/qt-observer-advanced/build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug/qt-observer-advanced_autogen/timestamp	70e055f96ca7f1c9
+292	3822	7685623133687766	CMakeFiles/qt-observer-advanced.dir/mainwindow.cpp.obj	f943b7bf5e78457f
+14	289	7685623130905482	E:/qtProject/qt-observer-advanced/build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug/qt-observer-advanced_autogen/mocs_compilation.cpp	70e055f96ca7f1c9
+1283	6127	7685622571524611	CMakeFiles/qt-observer-advanced.dir/main.cpp.obj	5ebc0473d14648b8
+1248	6141	7685622571158471	CMakeFiles/qt-observer-advanced.dir/qt-observer-advanced_autogen/mocs_compilation.cpp.obj	be49cdaa7ae42b58
+1270	6377	7685605873639551	CMakeFiles/qt-observer-advanced.dir/sensor.cpp.obj	582db15762d188d7
+3822	5131	7685623168992262	qt-observer-advanced.exe	a7559c87cb7bd830
+333	3389	7685623134103361	CMakeFiles/qt-observer-advanced.dir/device.cpp.obj	d99a62919b0b14db
+10	928	7685631924588814	qt-observer-advanced_autogen/timestamp	70e055f96ca7f1c9
+10	928	7685631924588814	qt-observer-advanced_autogen/mocs_compilation.cpp	70e055f96ca7f1c9
+10	928	7685631924588814	E:/qtProject/qt-observer-advanced/build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug/qt-observer-advanced_autogen/timestamp	70e055f96ca7f1c9
+10	928	7685631924588814	E:/qtProject/qt-observer-advanced/build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug/qt-observer-advanced_autogen/mocs_compilation.cpp	70e055f96ca7f1c9
+1067	5366	7685631927047769	CMakeFiles/qt-observer-advanced.dir/mediator.cpp.obj	e4bd34a6afeb1664
+970	5772	7685631926074136	CMakeFiles/qt-observer-advanced.dir/main.cpp.obj	5ebc0473d14648b8
+1016	5955	7685631926541143	CMakeFiles/qt-observer-advanced.dir/mainwindow.cpp.obj	f943b7bf5e78457f
+930	6085	7685631925673838	CMakeFiles/qt-observer-advanced.dir/qt-observer-advanced_autogen/mocs_compilation.cpp.obj	be49cdaa7ae42b58
+6085	7357	7685631977232032	qt-observer-advanced.exe	466bac8d1e01e223

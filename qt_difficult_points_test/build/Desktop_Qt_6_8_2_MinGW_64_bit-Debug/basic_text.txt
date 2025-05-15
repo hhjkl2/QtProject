@@ -1,0 +1,3 @@
+Hello, QTextStream!
+123
+3.14

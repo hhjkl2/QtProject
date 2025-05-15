@@ -1,0 +1,6 @@
+module qmlTest
+typeinfo appqmlTest.qmltypes
+prefer :/qt/qml/qmlTest/
+Main 1.0 Main.qml
+MyMessageBox 1.0 MyMessageBox.qml
+

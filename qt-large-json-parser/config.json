@@ -1,0 +1,62 @@
+{
+    "server": {
+        "host": "127.0.0.1",
+        "port": 8080,
+        "timeout": 30,
+        "ssl": {
+            "enabled": false,
+            "certificate": "/path/to/certificate.pem",
+            "key": "/path/to/key.pem"
+        }
+    },
+    "database": {
+        "type": "mysql",
+        "host": "localhost",
+        "port": 3306,
+        "username": "root",
+        "password": "password",
+        "database_name": "my_database",
+        "pool": {
+            "max_connections": 100,
+            "min_connections": 10,
+            "idle_timeout": 60
+        }
+    },
+    "logging": {
+        "level": "info",
+        "file": {
+            "path": "/var/log/myapp.log",
+            "max_size": 102400,
+            "backup_count": 5
+        },
+        "console": {
+            "enabled": true
+        }
+    },
+    "cache": {
+        "type": "redis",
+        "host": "127.0.0.1",
+        "port": 6379,
+        "password": "",
+        "db": 0,
+        "expiration": 3600
+    },
+    "features": [
+        {
+            "name": "feature1",
+            "enabled": true,
+            "config": {
+                "param1": "value1",
+                "param2": 10
+            }
+        },
+        {
+            "name": "feature2",
+            "enabled": false,
+            "config": {
+                "param3": "value3",
+                "param4": [1, 2, 3]
+            }
+        }
+    ]
+}

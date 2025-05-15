@@ -1,0 +1,30 @@
+{
+	"BUILD_DIR" : "E:/qtProject/qt-multilingual-support/build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug/qt-multilingual-support_autogen",
+	"CMAKE_BINARY_DIR" : "E:/qtProject/qt-multilingual-support/build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug",
+	"CMAKE_CURRENT_BINARY_DIR" : "E:/qtProject/qt-multilingual-support/build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug",
+	"CMAKE_CURRENT_SOURCE_DIR" : "E:/qtProject/qt-multilingual-support",
+	"CMAKE_SOURCE_DIR" : "E:/qtProject/qt-multilingual-support",
+	"CROSS_CONFIG" : false,
+	"GENERATOR" : "Ninja",
+	"INCLUDE_DIR" : "E:/qtProject/qt-multilingual-support/build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug/qt-multilingual-support_autogen/include",
+	"INPUTS" : 
+	[
+		"E:/qtProject/qt-multilingual-support/languages/en_US.qm",
+		"E:/qtProject/qt-multilingual-support/languages/zh_CN.ts",
+		"E:/qtProject/qt-multilingual-support/languages/fr_FR.ts",
+		"E:/qtProject/qt-multilingual-support/languages/zh_CN.qm",
+		"E:/qtProject/qt-multilingual-support/languages/en_US.ts",
+		"E:/qtProject/qt-multilingual-support/languages/fr_FR.qm"
+	],
+	"LOCK_FILE" : "E:/qtProject/qt-multilingual-support/build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug/CMakeFiles/qt-multilingual-support_autogen.dir/AutoRcc_languages_EWIEGA46WW_Lock.lock",
+	"MULTI_CONFIG" : false,
+	"OPTIONS" : [ "--no-zstd", "-name", "languages" ],
+	"OUTPUT_CHECKSUM" : "EWIEGA46WW",
+	"OUTPUT_NAME" : "qrc_languages.cpp",
+	"RCC_EXECUTABLE" : "E:/qtCreator/QtCreator/6.8.2/mingw_64/bin/rcc.exe",
+	"RCC_LIST_OPTIONS" : [ "--list" ],
+	"SETTINGS_FILE" : "E:/qtProject/qt-multilingual-support/build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug/CMakeFiles/qt-multilingual-support_autogen.dir/AutoRcc_languages_EWIEGA46WW_Used.txt",
+	"SOURCE" : "E:/qtProject/qt-multilingual-support/languages.qrc",
+	"USE_BETTER_GRAPH" : true,
+	"VERBOSITY" : 0
+}

@@ -1,0 +1,6 @@
+set(__QT_DEPLOY_TARGET_SamplePlugin_FILE E:/qtProject/qt-plugin-extension-mechanism/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/libSamplePlugin.dll)
+set(__QT_DEPLOY_TARGET_SamplePlugin_TYPE SHARED_LIBRARY)
+set(__QT_DEPLOY_TARGET_SamplePlugin_RUNTIME_DLLS E:/qtCreator/QtCreator/6.8.3/mingw_64/bin/Qt6Core.dll)
+set(__QT_DEPLOY_TARGET_qt-plugin-extension-mechanism_FILE E:/qtProject/qt-plugin-extension-mechanism/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/qt-plugin-extension-mechanism.exe)
+set(__QT_DEPLOY_TARGET_qt-plugin-extension-mechanism_TYPE EXECUTABLE)
+set(__QT_DEPLOY_TARGET_qt-plugin-extension-mechanism_RUNTIME_DLLS E:/qtCreator/QtCreator/6.8.3/mingw_64/bin/Qt6Widgets.dll;E:/qtCreator/QtCreator/6.8.3/mingw_64/bin/Qt6Gui.dll;E:/qtCreator/QtCreator/6.8.3/mingw_64/bin/Qt6Core.dll)

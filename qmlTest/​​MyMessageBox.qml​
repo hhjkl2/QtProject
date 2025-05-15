@@ -1,0 +1,28 @@
+// MyMessageBox.qml
+import QtQuick 6.0
+
+Rectangle {
+    width: 150; height: 80
+    color: "white"
+    radius: 5
+    border.color: "#333"
+    visible: false
+
+    property alias text: txt.text  // 正确属性别名
+
+    Text {
+        id: txt
+        anchors.centerIn: parent
+        color: "#666"
+        font.pixelSize: 14
+    }
+
+    Timer {
+        interval: 2000
+        running: parent.visible
+        onTriggered: parent.visible = false
+    }
+
+    Component.onCompleted: console.log("MessageBox loaded!")  // 调试输出
+}
+

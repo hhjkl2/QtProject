@@ -1,0 +1,18 @@
+# ninja log v6
+43	1506	7670032885129377	build.ninja	bd949b1cc9594563
+4	1676	7670032901621792	qt-dynamic-ui_autogen/timestamp	5812aa367fbc35bf
+4	1676	7670032901621792	qt-dynamic-ui_autogen/mocs_compilation.cpp	5812aa367fbc35bf
+4	1676	7670032901621792	E:/qtProject/qt-dynamic-ui/build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug/qt-dynamic-ui_autogen/timestamp	5812aa367fbc35bf
+4	1676	7670032901621792	E:/qtProject/qt-dynamic-ui/build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug/qt-dynamic-ui_autogen/mocs_compilation.cpp	5812aa367fbc35bf
+1682	1844	7670032904083528	qt-dynamic-ui_autogen/EWIEGA46WW/qrc_main.cpp	4c3e59e2487e2999
+1682	1844	7670032904083528	E:/qtProject/qt-dynamic-ui/build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug/qt-dynamic-ui_autogen/EWIEGA46WW/qrc_main.cpp	4c3e59e2487e2999
+1986	2937	7670032905631012	CMakeFiles/qt-dynamic-ui.dir/qt-dynamic-ui_autogen/EWIEGA46WW/qrc_main.cpp.obj	bb2af3114cbda2a7
+1845	8756	7670032904210430	CMakeFiles/qt-dynamic-ui.dir/qt-dynamic-ui_autogen/mocs_compilation.cpp.obj	356bd02bcc940957
+1915	8777	7670032904909517	CMakeFiles/qt-dynamic-ui.dir/mainwindow.cpp.obj	70415029abe7bd65
+78	495	7670034763339726	qt-dynamic-ui_autogen/timestamp	5812aa367fbc35bf
+78	495	7670034763339726	qt-dynamic-ui_autogen/mocs_compilation.cpp	5812aa367fbc35bf
+78	495	7670034763339726	E:/qtProject/qt-dynamic-ui/build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug/qt-dynamic-ui_autogen/timestamp	5812aa367fbc35bf
+78	495	7670034763339726	E:/qtProject/qt-dynamic-ui/build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug/qt-dynamic-ui_autogen/mocs_compilation.cpp	5812aa367fbc35bf
+546	5653	7670034768025816	CMakeFiles/qt-dynamic-ui.dir/mainwindow.cpp.obj	70415029abe7bd65
+496	6972	7670034767527058	CMakeFiles/qt-dynamic-ui.dir/main.cpp.obj	da53a99c32e3224d
+6973	8382	7670034832290703	qt-dynamic-ui.exe	b3a6ad70c4b83635

@@ -1,0 +1,11 @@
+{
+    "param1": {
+        "type": "bool"
+    },
+    "param2": {
+        "type": "number"
+    },
+    "param3": {
+        "type": "string"
+    }
+}    

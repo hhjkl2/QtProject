@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-946621c595619e2adaae.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "QtBuilderLab",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "QtBuilderLab::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-QtBuilderLab-Debug-54501904a88fd6dd9133.json",
+					"name" : "QtBuilderLab",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "QtBuilderLab_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-QtBuilderLab_autogen-Debug-7ce1d8eb9bcd0dc86505.json",
+					"name" : "QtBuilderLab_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "QtBuilderLab_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-QtBuilderLab_autogen_timestamp_deps-Debug-efa749b01a36f5071fc1.json",
+					"name" : "QtBuilderLab_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "E:/qtProject/QtBuilderLab/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug",
+		"source" : "E:/qtProject/QtBuilderLab"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

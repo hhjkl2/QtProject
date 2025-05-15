@@ -1,0 +1,14 @@
+-rootPath
+E:/qtProject/qt-proxy-model-full-example
+-cmake-output
+-output-file
+E:/qtProject/qt-proxy-model-full-example/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/.qt/qml_imports/appqt-proxy-model-full-example_conf.cmake
+-importPath
+E:/qtProject/qt-proxy-model-full-example/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/qt-proxy-model-full-example
+-importPath
+E:/qtProject/qt-proxy-model-full-example/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug
+-importPath
+E:/qtCreator/QtCreator/6.8.3/mingw_64/qml
+-qrcFiles
+E:/qtProject/qt-proxy-model-full-example/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/.qt/rcc/qmake_qt-proxy-model-full-example.qrc
+E:/qtProject/qt-proxy-model-full-example/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/.qt/rcc/appqt-proxy-model-full-example_raw_qml_0.qrc

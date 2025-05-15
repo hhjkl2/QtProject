@@ -1,0 +1,8 @@
+<RCC>
+  <qresource prefix="/i18n">
+    <file alias="zh_CN.qm">E:/qtProject/qt-multilingual-support/build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug/zh_CN.qm</file>
+    <file alias="en_US.qm">E:/qtProject/qt-multilingual-support/build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug/en_US.qm</file>
+    <file alias="fr_FR.qm">E:/qtProject/qt-multilingual-support/build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug/fr_FR.qm</file>
+  </qresource>
+</RCC>
+

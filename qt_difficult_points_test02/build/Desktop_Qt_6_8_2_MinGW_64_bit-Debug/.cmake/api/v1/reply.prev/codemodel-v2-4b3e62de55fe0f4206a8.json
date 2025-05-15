@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-3dc77a1a90c477865243.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "qt_difficult_points_test02",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "qt_difficult_points_test02::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-qt_difficult_points_test02-Debug-13a8aec2697cd5fff129.json",
+					"name" : "qt_difficult_points_test02",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "qt_difficult_points_test02_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-qt_difficult_points_test02_autogen-Debug-ab96e6df7f7e33ccb3bf.json",
+					"name" : "qt_difficult_points_test02_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "qt_difficult_points_test02_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-qt_difficult_points_test02_autogen_timestamp_deps-Debug-6a6b558e580164899b35.json",
+					"name" : "qt_difficult_points_test02_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "E:/qtProject/qt_difficult_points_test02/build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug",
+		"source" : "E:/qtProject/qt_difficult_points_test02"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

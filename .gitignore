@@ -1,0 +1,14 @@
+# 排除压缩包
+*.rar
+
+# 排除编译文件
+*.exe
+*.o
+*.obj
+*.dll
+
+# 排除Qt生成文件
+build-*/
+*.pro.user
+*.qmlc
+*.jsc

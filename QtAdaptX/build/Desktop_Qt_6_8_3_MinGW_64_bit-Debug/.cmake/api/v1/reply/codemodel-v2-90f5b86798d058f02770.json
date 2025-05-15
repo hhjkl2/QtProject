@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-87ebbc3b880c22211407.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "QtAdaptX",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "QtAdaptX::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-QtAdaptX-Debug-0e2043e8217888c1a39a.json",
+					"name" : "QtAdaptX",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "QtAdaptX_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-QtAdaptX_autogen-Debug-c591cf3fd57537a231e9.json",
+					"name" : "QtAdaptX_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "QtAdaptX_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-QtAdaptX_autogen_timestamp_deps-Debug-c236fe24e6675c3aed5f.json",
+					"name" : "QtAdaptX_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "E:/qtProject/QtAdaptX/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug",
+		"source" : "E:/qtProject/QtAdaptX"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

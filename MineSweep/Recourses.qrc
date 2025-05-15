@@ -1,0 +1,49 @@
+<RCC>
+    <qresource prefix="/"/>
+    <qresource prefix="/main">
+        <file>Resources/Images/default/0.jpg</file>
+        <file>Resources/Images/default/1.jpg</file>
+        <file>Resources/Images/default/2.jpg</file>
+        <file>Resources/Images/default/3.jpg</file>
+        <file>Resources/Images/default/4.jpg</file>
+        <file>Resources/Images/default/5.jpg</file>
+        <file>Resources/Images/default/6.jpg</file>
+        <file>Resources/Images/default/7.jpg</file>
+        <file>Resources/Images/default/8.jpg</file>
+        <file>Resources/Images/default/9.jpg</file>
+        <file>Resources/Images/default/10.jpg</file>
+        <file>Resources/Images/default/11.jpg</file>
+        <file>Resources/Images/default/background.png</file>
+        <file>Resources/Images/default/startpage.png</file>
+        <file>Resources/Images/default/btn_push.png</file>
+        <file>Resources/Images/default/btn.png</file>
+        <file>Resources/Images/default/over.png</file>
+        <file>Resources/Images/science/0.jpg</file>
+        <file>Resources/Images/science/1.jpg</file>
+        <file>Resources/Images/science/2.jpg</file>
+        <file>Resources/Images/science/3.jpg</file>
+        <file>Resources/Images/science/4.jpg</file>
+        <file>Resources/Images/science/5.jpg</file>
+        <file>Resources/Images/science/6.jpg</file>
+        <file>Resources/Images/science/7.jpg</file>
+        <file>Resources/Images/science/8.jpg</file>
+        <file>Resources/Images/science/9.jpg</file>
+        <file>Resources/Images/science/background.png</file>
+        <file>Resources/Images/science/over.png</file>
+        <file>Resources/Images/science/startpage.png</file>
+        <file>Resources/Images/science/10.jpg</file>
+        <file>Resources/Images/science/btn.png</file>
+        <file>Resources/Images/science/btn_push.png</file>
+        <file>Resources/Images/science/11.jpg</file>
+        <file>Resources/Images/default/blank_push.wav</file>
+        <file>Resources/Images/default/boom.wav</file>
+        <file>Resources/Images/default/btn_push.wav</file>
+        <file>Resources/Images/default/flag_change.wav</file>
+        <file>Resources/Images/default/success.wav</file>
+        <file>Resources/Images/science/blank_push.wav</file>
+        <file>Resources/Images/science/boom.wav</file>
+        <file>Resources/Images/science/btn_push.wav</file>
+        <file>Resources/Images/science/flag_change.wav</file>
+        <file>Resources/Images/science/success.wav</file>
+    </qresource>
+</RCC>

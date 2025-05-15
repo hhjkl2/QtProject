@@ -1,0 +1,14 @@
+# ninja log v6
+11	2237	7671779818577247	qt-large-json-parser_autogen/timestamp	69c7cc0f5fb9e845
+11	2237	7671779818577247	qt-large-json-parser_autogen/mocs_compilation.cpp	69c7cc0f5fb9e845
+11	2237	7671779818577247	E:/qtProject/qt-large-json-parser/build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug/qt-large-json-parser_autogen/timestamp	69c7cc0f5fb9e845
+11	2237	7671779818577247	E:/qtProject/qt-large-json-parser/build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug/qt-large-json-parser_autogen/mocs_compilation.cpp	69c7cc0f5fb9e845
+2320	10066	7671779821297684	CMakeFiles/qt-large-json-parser.dir/main.cpp.obj	d131dd418e1a348
+2260	10070	7671779820700414	CMakeFiles/qt-large-json-parser.dir/qt-large-json-parser_autogen/mocs_compilation.cpp.obj	390557b9b262754f
+2395	10129	7671779822055217	CMakeFiles/qt-large-json-parser.dir/mainwindow.cpp.obj	96685c5d61ad8a3c
+10129	11719	7671779899388092	qt-large-json-parser.exe	fea4a00de228f5b
+101	738	7671788191423785	qt-large-json-parser_autogen/timestamp	69c7cc0f5fb9e845
+101	738	7671788191423785	qt-large-json-parser_autogen/mocs_compilation.cpp	69c7cc0f5fb9e845
+101	738	7671788191423785	E:/qtProject/qt-large-json-parser/build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug/qt-large-json-parser_autogen/timestamp	69c7cc0f5fb9e845
+101	738	7671788191423785	E:/qtProject/qt-large-json-parser/build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug/qt-large-json-parser_autogen/mocs_compilation.cpp	69c7cc0f5fb9e845
+815	10316	7671788198563946	CMakeFiles/qt-large-json-parser.dir/mainwindow.cpp.obj	96685c5d61ad8a3c

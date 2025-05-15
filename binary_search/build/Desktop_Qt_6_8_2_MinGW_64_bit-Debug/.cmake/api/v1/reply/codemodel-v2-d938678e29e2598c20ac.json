@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-495b9c6f0285a1fd2882.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "binary_search",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "binary_search::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-binary_search-Debug-4a239817cccef6178d83.json",
+					"name" : "binary_search",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "binary_search_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-binary_search_autogen-Debug-4c8ad04070b0e1839bac.json",
+					"name" : "binary_search_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "binary_search_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-binary_search_autogen_timestamp_deps-Debug-29141bd3a07b434c22f5.json",
+					"name" : "binary_search_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "E:/qtProject/binary_search/build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug",
+		"source" : "E:/qtProject/binary_search"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

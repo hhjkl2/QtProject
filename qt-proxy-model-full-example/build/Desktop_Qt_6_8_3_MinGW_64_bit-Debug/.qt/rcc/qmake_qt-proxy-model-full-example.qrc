@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/qt-proxy-model-full-example">
+    <file alias="qmldir">E:/qtProject/qt-proxy-model-full-example/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/qt-proxy-model-full-example/qmldir</file>
+  </qresource>
+</RCC>
+
