@@ -1,83 +1,106 @@
 #include <QObject>
 #include <QDebug>
+#include <QCache>
+#include <QTimer>
 #include <QApplication>
-#include <functional>
+#include <QDateTime>
 
-// 通用回调适配器（模板类）
-template <typename... Args>
-class CallbackAdapter : public QObject {
+// 底层数据库（模拟）
+class Database : public QObject {
     Q_OBJECT
 public:
-    using CallbackType = std::function<void(Args...)>;
-
-    explicit CallbackAdapter(QObject* parent = nullptr) : QObject(parent) {}
-
-    // 设置第三方回调，并绑定到Qt信号
-    void setCallback(CallbackType cb) {
-        m_callback = [this, cb](Args... args) {
-            cb(args...);          // 执行原始回调
-            emit signalEmitted(args...); // 触发Qt信号
-        };
+    explicit Database(QObject* parent = nullptr) : QObject(parent) {
+        // 模拟数据库数据（id → 姓名）
+        m_data = { {1, "Alice"}, {2, "Bob"}, {3, "Charlie"} };
     }
 
-    // 获取回调函数（供第三方库注册）
-    CallbackType getCallback() const {
-        return m_callback;
+    QString queryUser(int id) {
+        QTimer::singleShot(100, this, [id]() { // 模拟查询延迟
+            qDebug() << "数据库查询：id=" << id;
+        });
+        return m_data.value(id, "Unknown");
     }
 
 signals:
-    void signalEmitted(Args... args); // 泛型信号（参数类型与回调一致）
+    void dataChanged(int id); // 数据变更信号（如用户修改姓名）
 
 private:
-    CallbackType m_callback;
+    QHash<int, QString> m_data;
 };
 
-// 测试：第三方库（支持两种回调类型）
-namespace ThirdPartyLib {
-using IntCallback = std::function<void(int)>;
-using StringCallback = std::function<void(const QString&)>;
+// 带缓存的适配器
+class CachedAdapter : public QObject {
+    Q_OBJECT
+public:
+    explicit CachedAdapter(Database* db, QObject* parent = nullptr)
+        : QObject(parent), m_db(db), m_cache(100) { // 缓存容量100项
+        connect(m_db, &Database::dataChanged, this, &CachedAdapter::invalidateCache);
+    }
 
-static IntCallback intCb;
-static StringCallback strCb;
+    // 查询用户（优先使用缓存）
+    QString getUser(int id) {
+        if (m_cache.contains(id)) {
+            return m_cache.object(id)->name;
+        }
 
-void triggerIntEvent(int value) { if (intCb) intCb(value); }
-void triggerStringEvent(const QString& msg) { if (strCb) strCb(msg); }
-}
+        // 缓存未命中，查询数据库并更新缓存
+        QString name = m_db->queryUser(id);
+        UserInfo* info = new UserInfo();
+        info->name = name;
+        info->timestamp = QDateTime::currentDateTime();
+        m_cache.insert(id, info); // 插入缓存
+        return name;
+    }
 
-// 客户端：处理信号的组件
+private:
+    struct UserInfo {
+        QString name;
+        QDateTime timestamp;
+    };
+
+    void invalidateCache(int id) {
+        m_cache.remove(id); // 数据变更时失效对应缓存
+        qDebug() << "缓存失效：id=" << id;
+    }
+
+    Database* m_db;
+    QCache<int, UserInfo> m_cache; // 缓存：id → 用户信息
+};
+
+// 客户端：频繁查询用户的组件
 class Client : public QObject {
     Q_OBJECT
 public:
-    explicit Client(QObject* parent = nullptr) : QObject(parent) {}
+    explicit Client(CachedAdapter* adapter, QObject* parent = nullptr)
+        : QObject(parent), m_adapter(adapter) {
+        // 模拟频繁查询
+        QTimer* timer = new QTimer(this);
+        connect(timer, &QTimer::timeout, this, &Client::queryUser);
+        timer->start(500);
+    }
 
 public slots:
-    void onIntEvent(int value) {
-        qDebug() << "接收到整数事件：" << value;
+    void queryUser() {
+        static int id = 1;
+        QString name = m_adapter->getUser(id);
+        qDebug() << "查询结果：id=" << id << "，姓名=" << name;
+        id = (id % 3) + 1; // 循环查询id=1,2,3
     }
-
-    void onStringEvent(const QString& msg) {
-        qDebug() << "接收到字符串事件：" << msg;
-    }
+private:
+    CachedAdapter* m_adapter;
 };
 
 int main(int argc, char* argv[]) {
     QApplication app(argc, argv);
 
-    // 适配int类型回调
-    CallbackAdapter<int> intAdapter;
-    ThirdPartyLib::intCb = intAdapter.getCallback();
-    QObject::connect(&intAdapter, &CallbackAdapter<int>::signalEmitted,
-                     new Client(), &Client::onIntEvent);
+    Database db;
+    CachedAdapter adapter(&db);
+    Client client(&adapter);
 
-    // 适配QString类型回调
-    CallbackAdapter<const QString&> strAdapter;
-    ThirdPartyLib::strCb = strAdapter.getCallback();
-    QObject::connect(&strAdapter, &CallbackAdapter<const QString&>::signalEmitted,
-                     new Client(), &Client::onStringEvent);
-
-    // 模拟第三方库触发事件
-    ThirdPartyLib::triggerIntEvent(42);       // 输出：接收到整数事件：42
-    ThirdPartyLib::triggerStringEvent("Hello"); // 输出：接收到字符串事件：Hello
+    // 模拟数据库数据变更（触发缓存失效）
+    QTimer::singleShot(2500, &db, [&db]() {
+        emit db.dataChanged(1); // id=1的数据变更
+    });
 
     return app.exec();
 }

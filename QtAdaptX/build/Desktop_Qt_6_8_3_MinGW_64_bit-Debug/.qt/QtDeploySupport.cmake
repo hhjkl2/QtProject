@@ -60,6 +60,7 @@ set(__QT_DEPLOY_QT_DEBUG_POSTFIX "")
 set(__qt_deploy_support_files
     "E:/qtProject/QtAdaptX/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/.qt/QtDeployTargets.cmake"
     "E:/qtCreator/QtCreator/6.8.3/mingw_64/lib/cmake/Qt6Core/Qt6CoreDeploySupport.cmake"
+    "E:/qtCreator/QtCreator/6.8.3/mingw_64/lib/cmake/Qt6Qml/Qt6QmlDeploySupport.cmake"
 )
 foreach(__qt_deploy_support_file IN LISTS __qt_deploy_support_files)
     include("${__qt_deploy_support_file}")

@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-0d892f0c6b35b0b22176.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "QtAdaptX",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "QtAdaptX::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-QtAdaptX-Debug-837de6ceb1309d04809d.json",
+					"name" : "QtAdaptX",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "QtAdaptX_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-QtAdaptX_autogen-Debug-c591cf3fd57537a231e9.json",
+					"name" : "QtAdaptX_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "QtAdaptX_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-QtAdaptX_autogen_timestamp_deps-Debug-8f52aa73e8e9fe94bda3.json",
+					"name" : "QtAdaptX_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "QtAdaptX_qmlimportscan::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-QtAdaptX_qmlimportscan-Debug-e513a0f72622c3c46afb.json",
+					"name" : "QtAdaptX_qmlimportscan",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "E:/qtProject/QtAdaptX/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug",
+		"source" : "E:/qtProject/QtAdaptX"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

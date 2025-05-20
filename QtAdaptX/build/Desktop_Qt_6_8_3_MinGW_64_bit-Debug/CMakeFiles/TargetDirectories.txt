@@ -1,4 +1,5 @@
 E:/qtProject/QtAdaptX/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/CMakeFiles/QtAdaptX.dir
+E:/qtProject/QtAdaptX/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/CMakeFiles/QtAdaptX_qmlimportscan.dir
 E:/qtProject/QtAdaptX/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/CMakeFiles/edit_cache.dir
 E:/qtProject/QtAdaptX/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/CMakeFiles/rebuild_cache.dir
 E:/qtProject/QtAdaptX/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/CMakeFiles/list_install_components.dir

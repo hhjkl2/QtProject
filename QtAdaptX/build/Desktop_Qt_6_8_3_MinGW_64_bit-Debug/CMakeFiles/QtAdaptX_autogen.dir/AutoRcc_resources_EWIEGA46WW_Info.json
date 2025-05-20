@@ -1,0 +1,22 @@
+{
+	"BUILD_DIR" : "E:/qtProject/QtAdaptX/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/QtAdaptX_autogen",
+	"CMAKE_BINARY_DIR" : "E:/qtProject/QtAdaptX/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug",
+	"CMAKE_CURRENT_BINARY_DIR" : "E:/qtProject/QtAdaptX/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug",
+	"CMAKE_CURRENT_SOURCE_DIR" : "E:/qtProject/QtAdaptX",
+	"CMAKE_SOURCE_DIR" : "E:/qtProject/QtAdaptX",
+	"CROSS_CONFIG" : false,
+	"GENERATOR" : "Ninja",
+	"INCLUDE_DIR" : "E:/qtProject/QtAdaptX/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/QtAdaptX_autogen/include",
+	"INPUTS" : [ "E:/qtProject/QtAdaptX/main.qml" ],
+	"LOCK_FILE" : "E:/qtProject/QtAdaptX/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/CMakeFiles/QtAdaptX_autogen.dir/AutoRcc_resources_EWIEGA46WW_Lock.lock",
+	"MULTI_CONFIG" : false,
+	"OPTIONS" : [ "--no-zstd", "-name", "resources" ],
+	"OUTPUT_CHECKSUM" : "EWIEGA46WW",
+	"OUTPUT_NAME" : "qrc_resources.cpp",
+	"RCC_EXECUTABLE" : "E:/qtCreator/QtCreator/6.8.3/mingw_64/bin/rcc.exe",
+	"RCC_LIST_OPTIONS" : [ "--list" ],
+	"SETTINGS_FILE" : "E:/qtProject/QtAdaptX/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/CMakeFiles/QtAdaptX_autogen.dir/AutoRcc_resources_EWIEGA46WW_Used.txt",
+	"SOURCE" : "E:/qtProject/QtAdaptX/resources.qrc",
+	"USE_BETTER_GRAPH" : true,
+	"VERBOSITY" : 0
+}
